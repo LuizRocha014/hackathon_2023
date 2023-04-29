@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "chF9iX6zTq875HVnTDo18Z9g5/XdJhnZuErcs6s7l9hHKJ491DBwSINNnkfanFK77uYTr/ZKJoWq5jho1aagRg==",
+  "dgSpecHash": "pXICIwI0IyZ4XaHZ7UoKxRJ+QFn16842xop7A3bGRZmAI6BcmiFDl+fThIhQieGpkMYDYclgr1tZNuAhsge0nA==",
   "success": true,
-  "projectFilePath": "C:\\Hackathon\\Hackathon_2\\Hackathon_2\\Hackathon_2.csproj",
+  "projectFilePath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2\\Hackathon_2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\luiz.lima\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\luiz.lima\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\luiz.lima\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\luiz.lima\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\luiz.lima\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\milton.maia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\milton.maia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\milton.maia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\milton.maia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\milton.maia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
