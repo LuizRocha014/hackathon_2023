@@ -2,9 +2,8 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:Hackathon_2.Views.PagesAdicionadas"
-       xmlns:localTab="clr-namespace:Hackathon_2.Views"
-       Title="Hackathon_2"
-       x:Class="Hackathon_2.AppShell">
+       x:Class="Hackathon_2.AppShell" 
+       Title="Menu">
 
     <!--
         The overall app visual hierarchy is defined here, along with navigation.
@@ -79,23 +78,16 @@
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
-    <FlyoutItem Title="Inicío">
-        <Tab Title="Cachorro">
-            <ShellContent  ContentTemplate="{DataTemplate local:AdocaoAnimaisPage}" />
-        </Tab>
-        <Tab Title="Gato">
-            <ShellContent  ContentTemplate="{DataTemplate local:AdocaoAnimaisPage}" />
-        </Tab>
-        <Tab Title="Gato">
-            <ShellContent  ContentTemplate="{DataTemplate local:AdocaoAnimaisPage}" />
-        </Tab>
-    </FlyoutItem>
+    
     <FlyoutItem Title="Adoção" Icon="icon_feed.png">
-        <Tab Title="Cachorro">
-            <ShellContent  ContentTemplate="{DataTemplate local:AdocaoAnimaisPage}" />
+        <Tab Title="Cachorro" Icon="dog.png">
+            <ShellContent  ContentTemplate="{DataTemplate local:CachorroPage}" />
         </Tab>
-        <Tab Title="Gato">
-            <ShellContent  ContentTemplate="{DataTemplate local:AdocaoAnimaisPage}" />
+        <Tab Title="Gato" Icon="cat.png">
+            <ShellContent  ContentTemplate="{DataTemplate local:GatoPage}" />
+        </Tab>
+        <Tab Title="Outros" Icon="outros.png">
+            <ShellContent  ContentTemplate="{DataTemplate local:OutrosPage}" />
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Doação" Icon="icon_feed.png">
@@ -109,5 +101,8 @@
     </FlyoutItem>
     <FlyoutItem Title="Histórico" Icon="icon_feed.png">
         <ShellContent  ContentTemplate="{DataTemplate local:HistoricoPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Login" Icon="icon_feed.png">
+        <ShellContent  ContentTemplate="{DataTemplate local:Login_CriaContaPage}" />
     </FlyoutItem>
 </Shell>
