@@ -1,5 +1,6 @@
 ﻿using Hackathon_2.ViewModels;
 using Hackathon_2.Views;
+using Hackathon_2.Views.PagesAdicionadas;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
@@ -13,6 +14,7 @@ namespace Hackathon_2
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute("LoginPage", typeof(LoginPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

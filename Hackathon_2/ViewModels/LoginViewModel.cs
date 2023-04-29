@@ -1,4 +1,5 @@
 ﻿using Hackathon_2.Views;
+using Hackathon_2.Views.PagesAdicionadas;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,7 +19,7 @@ namespace Hackathon_2.ViewModels
         private async void OnLoginClicked(object obj)
         {
             // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
-            await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+            await Shell.Current.GoToAsync($"//{nameof(AdocaoAnimaisPage)}");
         }
     }
 }
