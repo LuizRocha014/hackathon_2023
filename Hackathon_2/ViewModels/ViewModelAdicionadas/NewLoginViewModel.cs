@@ -8,7 +8,7 @@ namespace Hackathon_2.ViewModels.ViewModelAdicionadas
 {
     public class NewLoginViewModel
     {
-        public Command _loginCommand;
+        private Command _loginCommand;
         private Command _entrarCommand;
 
         public NewLoginViewModel()
