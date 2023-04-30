@@ -18,7 +18,7 @@ namespace Hackathon_2.ViewModels.ViewModelAdicionadas
 
         public void DoarAnimal()
         {
-            App.Current.MainPage.DisplayAlert("", "", "OK");
+            App.Current.MainPage.DisplayAlert("Atenção", "Solicitação de doação enviada! Entratemos em contato.", "OK");
         }
     }
 }

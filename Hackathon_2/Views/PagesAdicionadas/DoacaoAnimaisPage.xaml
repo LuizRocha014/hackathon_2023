@@ -9,7 +9,7 @@
     <ScrollView Orientation="Vertical" IsEnabled="true">
         <Grid BackgroundColor="WhiteSmoke" RowDefinitions="4*,90*">
             <Frame BackgroundColor="White" Grid.Row="1" Margin="20" CornerRadius="10">
-                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,AUto" RowSpacing="0">
+                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,AUto, Auto" RowSpacing="0">
                     <Label Grid.Row="0" Text="DOAÇÃO" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Transparent" FontSize="28" Margin="0,20,0,0"/>
                     <Label Grid.Row="1" Text="Doe seu animalzinho ao invés de abandona-lo" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Transparent" Margin="0,0,0,10"/>
                     <inputLayout:SfTextInputLayout Grid.Row="2" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Nome" >
@@ -27,8 +27,10 @@
                     <inputLayout:SfTextInputLayout Grid.Row="6" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Descrilçao do Animal" >
                         <componentes:CustonEditor AutoSize="TextChanges"/>
                     </inputLayout:SfTextInputLayout>
-
-                    <Button Text="DOAR" CornerRadius="9" Grid.Row="7" Command="{Binding DoarCommand}"/>
+                    <Frame Grid.Row="7" BackgroundColor="White" BorderColor="LightGray" WidthRequest="0.5" CornerRadius="10" HasShadow="False" HeightRequest="100" Margin="0,0,0,20">
+                        <Image Source="photo.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Aspect="AspectFit"  Margin="20"/>
+                    </Frame>
+                    <Button Text="DOAR" CornerRadius="9" Grid.Row="8" Command="{Binding DoarCommand}"/>
                 </Grid>
             </Frame>
             <Image Grid.Row="1" HeightRequest="90" WidthRequest="90" VerticalOptions="Start" Margin="-30" Source="donateAnimal.png"/>

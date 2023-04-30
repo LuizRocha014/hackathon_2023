@@ -26,7 +26,7 @@ namespace Hackathon_2.ViewModels.ViewModelAdicionadas
 
         public async void ExecutaLogin()
         {
-         await App.Current.MainPage.DisplayAlert("","","ok");
+         await App.Current.MainPage.DisplayAlert("Sucesso","Logado com sucesso!","ok");
         } 
     }
 }

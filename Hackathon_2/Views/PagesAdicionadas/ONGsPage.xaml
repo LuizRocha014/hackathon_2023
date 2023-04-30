@@ -1,12 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Hackathon_2.Views.PagesAdicionadas.ONGsPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Ongs"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             x:Class="Hackathon_2.Views.PagesAdicionadas.ONGsPage"
+             Title="OGNs">
+    <Grid BackgroundColor="{DynamicResource BackgroundColor}">
+        <syncfusion:SfListView ItemSize="100" BackgroundColor="WhiteSmoke" ItemsSource="{Binding ListONG}" ItemSpacing="2" Margin="5,5,5,0"  ItemsSourceChangeCachingStrategy="RecycleItems">
+            <syncfusion:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid BackgroundColor="White" ColumnDefinitions="30*,70*" RowDefinitions="30*,20*,30*" RowSpacing="0">
+                        <Image BackgroundColor="red" Grid.RowSpan="4" Source="{Binding Imagem}" Aspect="AspectFill"/>
+                        <Label Text="{Binding Nome}" Grid.Column="1" Grid.Row="0" Margin="10,15,0,0" BackgroundColor="Transparent" FontSize="18" FontAttributes="Bold" Padding="0"/>
+                        <Label Grid.RowSpan="3"  Grid.Row="1" Grid.Column="1" BackgroundColor="Transparent" Padding="0" Margin="10,0,0,0">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Especialidade: " FontSize="14"  />
+                                    <Span Text="{Binding Fundacao}" FontSize="12" TextColor="DarkGray"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfListView.ItemTemplate>
+        </syncfusion:SfListView>
+    </Grid>
 </ContentPage>
