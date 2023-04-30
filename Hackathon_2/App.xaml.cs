@@ -9,6 +9,7 @@ namespace Hackathon_2
     public partial class App : Application
     {
 
+        public static bool UsuarioLogado { get; set; } = false;
         public App()
         {
             InitializeComponent();

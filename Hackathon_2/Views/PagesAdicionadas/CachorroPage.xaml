@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              x:Class="Hackathon_2.Views.PagesAdicionadas.CachorroPage"
              Title="Adoção">
     <ContentPage.Content>
@@ -11,12 +11,13 @@
                 <Label Grid.Row="1" Text="No Happy Pet você poderá achar o seu pet ideal" HorizontalTextAlignment="Center" TextColor="DarkGray"/>
             </Grid>
 
-            <Grid Grid.Row="1" RowDefinitions="Auto" ColumnDefinitions="*" Margin="20,20,20,0">
-                <Frame CornerRadius="5" BackgroundColor="White"/>
-                <Entry TextChanged="Entry_TextChanged" TextColor="Gray" Placeholder="Nome do animal" PlaceholderColor="LightGray" FontSize="Small"/>
+            <Grid Grid.Row="1" RowDefinitions="Auto" ColumnDefinitions="*" Margin="20,15,20,0">
+                <inputLayout:SfTextInputLayout ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Nome do animal">
+                    <Entry TextChanged="Entry_TextChanged" TextColor="Gray"/>
+                </inputLayout:SfTextInputLayout>
             </Grid>
 
-            <Grid Grid.Row="2" RowDefinitions="Auto" ColumnDefinitions="*" Margin="20,15,20,0" BackgroundColor="White">
+            <Grid Grid.Row="2" RowDefinitions="Auto" ColumnDefinitions="*" Margin="20,0,20,0" BackgroundColor="White">
                 <syncfusion:SfListView x:Name="ListaCachorros" ItemSize="160" BackgroundColor="WhiteSmoke" ItemSpacing="2" ItemTapped="ListaCachorros_ItemTapped" ItemsSourceChangeCachingStrategy="RecycleItems">
                     <syncfusion:SfListView.LayoutManager>
                         <syncfusion:GridLayout SpanCount = "2"/>

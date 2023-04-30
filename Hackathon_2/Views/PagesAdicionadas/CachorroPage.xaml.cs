@@ -46,8 +46,8 @@ namespace Hackathon_2.Views.PagesAdicionadas
         }
 
         private void ListaCachorros_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
-        {
-            App.Current.MainPage.Navigation.PushAsync(new AnimalDetalhePage((Animal)ListaCachorros.SelectedItem));
+        {          
+            App.Current.MainPage.Navigation.PushAsync(new AnimalDetalhePage((Animal)e.ItemData));
         }
     }
 }
