@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "E5ZXCn3Zm8jTLORtugaGXV9Ph4x1+6wJunL01YwU4meoHfpnQLEQ5m3BGr+EBOxdMFrHtMsD6dz4kYKoVVCagg==",
+  "dgSpecHash": "m6Ltmxj8tnGQ6YVX31QKVs9S014/VQP9TGGNj3NbAC5Q/Ga7IG2pGBEz8zaUj7mOC9cLaZtOchrL7lSOKbHoXg==",
   "success": true,
-  "projectFilePath": "C:\\Hackathon\\Hackathon_2\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
+  "projectFilePath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\luiz.lima\\.nuget\\packages\\syncfusion.licensing\\21.1.41\\syncfusion.licensing.21.1.41.nupkg.sha512",
+    "C:\\Users\\luiz.lima\\.nuget\\packages\\syncfusion.xamarin.core\\21.1.41\\syncfusion.xamarin.core.21.1.41.nupkg.sha512",
     "C:\\Users\\luiz.lima\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\luiz.lima\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\luiz.lima\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
