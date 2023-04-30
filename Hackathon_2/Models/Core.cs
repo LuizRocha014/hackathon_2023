@@ -6,7 +6,7 @@ namespace Hackathon_2.Models
 {
     public class Core
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         public DateTime Inclusao { get; set; }
         public DateTime Alteracao { get; set; }
         public bool Excluido { get; set; }

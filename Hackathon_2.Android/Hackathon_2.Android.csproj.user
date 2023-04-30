@@ -4,5 +4,6 @@
     <SelectedDevice>Motorola moto g%288%29 plus</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <ActiveDebugProfile>Motorola moto g%288%29 plus %28Android 10.0 – API 29%29</ActiveDebugProfile>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

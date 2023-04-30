@@ -2,10 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Hackathon_2.Views.PagesAdicionadas.CachorroPage"
-             Title="Cachorros">
+             Title="Adoção">
     <ContentPage.Content>
-        <StackLayout>
+        <!--<StackLayout>
             <Button Clicked="Button_Clicked"/>
-        </StackLayout>
+        </StackLayout>-->
+
+        <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*" BackgroundColor="White">
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*" RowSpacing="0" Margin="0,15,0,0">                
+                <Label Text="Bem Vindo" FontSize="Title" HorizontalTextAlignment="Center" TextColor="Gray"/>
+                <Label Grid.Row="1" Text="No Happy Pet você poderá achar o seu pet ideal" HorizontalTextAlignment="Center" TextColor="DarkGray"/> 
+            </Grid>
+
+            <Grid Grid.Row="1" RowDefinitions="Auto" ColumnDefinitions="*" Margin="25,20,25,0">
+                <Frame CornerRadius="5" BackgroundColor="WhiteSmoke"/>
+                <Entry />
+            </Grid>
+
+            <Grid Grid.Row="2" RowDefinitions="Auto" ColumnDefinitions="*">
+                <ListView x:Name="ListaCachorros">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Margin="0" Padding="0" BackgroundColor="Red" CornerRadius="5" BorderColor="WhiteSmoke" HeightRequest="100">
+                                    <Grid ColumnDefinitions="30*,70*">
+                                        <Frame BackgroundColor="Blue"/>
+                                        <Grid Grid.Column="1" RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto,Auto">
+                                            <Label Text="{ Binding Nome}"/>
+                                        </Grid>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

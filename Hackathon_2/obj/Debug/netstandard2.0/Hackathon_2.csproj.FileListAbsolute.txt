@@ -11,9 +11,15 @@ C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\Item
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\AdocaoAnimaisPage.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\AnimalDetalhePage.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\CachorroPage.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\CriaContaPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\DoacaoAnimaisPage.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\GatoPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\HistoricoPage.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\Login_CriaContaPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\ONGsPage.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\OutrosPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\VeterinarioPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Hackathon_2.AssemblyInfoInputs.cache
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Hackathon_2.AssemblyInfo.cs

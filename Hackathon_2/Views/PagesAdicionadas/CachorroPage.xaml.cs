@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hackathon_2.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,14 @@ namespace Hackathon_2.Views.PagesAdicionadas
         public CachorroPage()
         {
             InitializeComponent();
+            var list = new List<Animal>();
+            for (int i = 0; i < 10; i++)
+            {
+                var item = new Animal {
+                Nome = "teste"};
+                list.Add(item);
+            }
+            ListaCachorros.ItemsSource = list;
         }
 
         private void Button_Clicked(object sender, EventArgs e)
