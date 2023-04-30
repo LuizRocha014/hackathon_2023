@@ -8,8 +8,6 @@ namespace Hackathon_2
 {
     public partial class App : Application
     {
-        public static string Login { get; set; }
-        public static string Senha { get; set; }
         public static bool UsuarioLogado { get; set; } = false;
         public App()
         {

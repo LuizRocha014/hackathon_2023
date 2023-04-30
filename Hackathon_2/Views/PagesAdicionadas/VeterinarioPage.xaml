@@ -13,7 +13,7 @@
                         <Label Grid.Row="2" Grid.Column="1" BackgroundColor="Transparent" Padding="0" Margin="10,0,0,0">
                             <Label.FormattedText>
                                 <FormattedString>
-                                    <Span Text="Especialidade: " FontSize="15"  />
+                                    <Span Text="Especialidade: " FontSize="15"/>
                                     <Span Text="{Binding Especialidade}" FontSize="14" TextColor="DarkGray"/>
                                 </FormattedString>
                             </Label.FormattedText>

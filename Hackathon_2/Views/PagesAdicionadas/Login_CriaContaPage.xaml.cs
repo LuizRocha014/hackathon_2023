@@ -18,8 +18,7 @@ namespace Hackathon_2.Views.PagesAdicionadas
         {
             InitializeComponent();
             _newLoginViewModel= new NewLoginViewModel();
-            BindingContext = _newLoginViewModel;
-            
+            BindingContext = _newLoginViewModel;       
         }
 
         private void Entry_TextChanged(object sender, TextChangedEventArgs e)

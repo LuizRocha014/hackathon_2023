@@ -21,5 +21,11 @@ namespace Hackathon_2.Views.PagesAdicionadas
         {
             App.Current.MainPage.Navigation.PushAsync(new CriaContaPage());
         }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            App.UsuarioLogado = true;
+            App.Current.MainPage.Navigation.PopAsync();
+        }
     }
 }

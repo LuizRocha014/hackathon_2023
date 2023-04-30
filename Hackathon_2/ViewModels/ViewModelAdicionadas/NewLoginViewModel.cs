@@ -30,19 +30,12 @@ namespace Hackathon_2.ViewModels.ViewModelAdicionadas
         {
             try
             {
-                if (string.IsNullOrEmpty(_login))
-                    throw new Exception("Preencha o usuário");
-                if (string.IsNullOrEmpty(_senha))
-                    throw new Exception("Preencha a senha");
-
-                if (_login.ToUpper().Trim().Equals(App.Login.ToUpper().Trim()) && _senha.ToUpper().Trim().Equals(App.Senha.ToUpper().Trim()))
-                    App.Current.MainPage = new AppShell();
-                else
-                    throw new Exception("Usuário e/ou senha incorretos");
+                App.UsuarioLogado = true;
+                await App.Current.MainPage.Navigation.PopAsync();
             }
             catch (Exception e)
             {
-                await App.Current.MainPage.DisplayAlert("Atenção", e.Message, "Ok");       
+                await App.Current.MainPage.DisplayAlert("Atenção", e.Message, "Ok");
             }
         }
     }

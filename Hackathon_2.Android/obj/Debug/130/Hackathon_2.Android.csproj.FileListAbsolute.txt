@@ -104,6 +104,18 @@ C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\outros10.jpg
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\photo.png
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\donateanimal.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\arca_da_fe.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\borika_hegyessy.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\cachorro1.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\cachorro2.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\cachorro3.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\cachorro4.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\doctor.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\doctor2.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\doctor3.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\doctor4.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\prana_pet.png
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\res\drawable\sos_gatinhos.png
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\uploadflags.txt
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\resolvedassemblies.hash
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\assets\FormsViewGroup.dll
@@ -546,6 +558,7 @@ C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\c
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\crc644103bb497e895a1b\InputLayoutToggleViewRenderer.java
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\crc644103bb497e895a1b\InputLayoutToggleViewRenderer_GestureListener.java
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\crc644103bb497e895a1b\SfTextInputLayoutRenderer.java
+C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\crc6456c399f5446b998f\EditorCuston.java
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\ButtonRenderer.java
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\CarouselPageRenderer.java
 C:\Gama\hackathon\hackathon_2023\Hackathon_2.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\FormsFragmentPagerAdapter_1.java

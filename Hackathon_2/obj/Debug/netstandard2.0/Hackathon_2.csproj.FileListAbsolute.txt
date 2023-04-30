@@ -17,6 +17,8 @@ C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\Page
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\DoacaoAnimaisPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\GatoPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\HistoricoPage.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\InicioAdocao.xaml.g.cs
+C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\ListaDeFotos.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\Login_CriaContaPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\ONGsPage.xaml.g.cs
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\OutrosPage.xaml.g.cs
@@ -29,5 +31,3 @@ C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Hackathon_
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\refint\Hackathon_2.dll
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Hackathon_2.pdb
 C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\ref\Hackathon_2.dll
-C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\ListaDeFotos.xaml.g.cs
-C:\Gama\hackathon\hackathon_2023\Hackathon_2\obj\Debug\netstandard2.0\Views\PagesAdicionadas\InicioAdocao.xaml.g.cs
