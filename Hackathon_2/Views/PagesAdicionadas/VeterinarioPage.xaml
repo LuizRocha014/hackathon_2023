@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Hackathon_2.Views.PagesAdicionadas.VeterinarioPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="veterinarios"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="Hackathon_2.Views.PagesAdicionadas.VeterinarioPage" Title="Veterinário">
+    <Grid BackgroundColor="{DynamicResource BackgroundColor}">
+        
+        
+    </Grid>
 </ContentPage>

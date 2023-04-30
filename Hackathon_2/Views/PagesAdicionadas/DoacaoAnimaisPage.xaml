@@ -9,8 +9,8 @@
     <ScrollView Orientation="Vertical" IsEnabled="true">
         <Grid BackgroundColor="WhiteSmoke" RowDefinitions="4*,90*">
             <Frame BackgroundColor="White" Grid.Row="1" Margin="20" CornerRadius="10">
-                <Grid RowDefinitions="4*,Auto,5*,5*,5*,Auto,Auto,AUto" RowSpacing="0">
-                    <Label Grid.Row="0" Text="DOAÇÃO" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Transparent" FontSize="28" Margin="0,10,0,0"/>
+                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,AUto" RowSpacing="0">
+                    <Label Grid.Row="0" Text="DOAÇÃO" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Transparent" FontSize="28" Margin="0,20,0,0"/>
                     <Label Grid.Row="1" Text="Doe seu animalzinho ao invés de abandona-lo" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" BackgroundColor="Transparent" Margin="0,0,0,10"/>
                     <inputLayout:SfTextInputLayout Grid.Row="2" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Nome" >
                         <Entry/>
