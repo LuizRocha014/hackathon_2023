@@ -7,29 +7,36 @@
     <ScrollView Orientation="Vertical">
         <Grid BackgroundColor="WhiteSmoke" RowDefinitions="4*,90*">
             <Frame BackgroundColor="White" Grid.Row="1" Margin="20" CornerRadius="10">
-                <Grid RowDefinitions="8*,5*,5*,5*,5*,5*,5*,5*">
-                    <Label Grid.Row="0" Text="CRIAR CONTA"/>
-                    <inputLayout:SfTextInputLayout Grid.Row="1" BackgroundColor="blue" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                <Grid RowDefinitions="6*,5*,5*,5*,5*,5*,5*,5*,5*,11*,3*">
+                    <Label Grid.Row="0" Text="CRIAR CONTA" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,10,0,0" FontSize="30" TextColor="Gray"/>
+                    <inputLayout:SfTextInputLayout Grid.Row="1" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Usuário" >
                         <Entry/>
                     </inputLayout:SfTextInputLayout>
-                    <inputLayout:SfTextInputLayout Grid.Row="2" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                    <inputLayout:SfTextInputLayout Grid.Row="2" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Sobrenome"  >
                         <Entry/>
                     </inputLayout:SfTextInputLayout>
                     <inputLayout:SfTextInputLayout Grid.Row="3" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
                         <Entry/>
                     </inputLayout:SfTextInputLayout>
-                    <inputLayout:SfTextInputLayout Grid.Row="4" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                    <inputLayout:SfTextInputLayout Grid.Row="4" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="CPF"  >
                         <Entry/>
                     </inputLayout:SfTextInputLayout>
-                    <inputLayout:SfTextInputLayout Grid.Row="5" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                    <inputLayout:SfTextInputLayout Grid.Row="5" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="RG" >
                         <Entry/>
                     </inputLayout:SfTextInputLayout>
-                    <inputLayout:SfTextInputLayout Grid.Row="6" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                    <inputLayout:SfTextInputLayout Grid.Row="6" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Nascimento">
                         <Entry/>
                     </inputLayout:SfTextInputLayout>
-                    <inputLayout:SfTextInputLayout Grid.Row="7" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                    <inputLayout:SfTextInputLayout Grid.Row="7" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="E-mail">
                         <Entry/>
                     </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Grid.Row="8" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Telefone" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                    <Frame Grid.Row="9" BackgroundColor="White" BorderColor="LightGray" WidthRequest="0.5" CornerRadius="10" HasShadow="False">
+                        <Image Source="photo.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Aspect="AspectFit"  Margin="20"/>
+                    </Frame>
+                    <Button Grid.Row="10" CornerRadius="10" Margin="0,5,0,0" HeightRequest="30" Text="CADASTRAR"/>
                 </Grid>
             </Frame>
             <Image Grid.Row="1" HeightRequest="90" WidthRequest="90" VerticalOptions="Start" Margin="-30" Source="newUser.png"/>
