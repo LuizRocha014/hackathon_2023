@@ -42,7 +42,8 @@ namespace Hackathon_2.ViewModels.ViewModelAdicionadas
             }
             catch (Exception e)
             {
-                await App.Current.MainPage.DisplayAlert("Atenção", e.Message, "Ok");            }
+                await App.Current.MainPage.DisplayAlert("Atenção", e.Message, "Ok");       
+            }
         }
     }
 }

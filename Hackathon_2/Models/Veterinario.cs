@@ -9,5 +9,6 @@ namespace Hackathon_2.Models
         public string Nome { get; set; }
         public string CFMV { get; set; }
         public string Especialidade { get; set; }
+        public string Imagem { get; set; }
     }
 }

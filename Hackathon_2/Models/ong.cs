@@ -10,5 +10,6 @@ namespace Hackathon_2.Models
         public Guid VeterinarioId { get; set; }
         public string Nome { get; set; }
         public string Fundacao { get; set; }
+        public string Imagem { get; set; }
     }
 }
