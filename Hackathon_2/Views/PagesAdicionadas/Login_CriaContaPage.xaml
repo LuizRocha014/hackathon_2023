@@ -3,6 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              x:Class="Hackathon_2.Views.PagesAdicionadas.Login_CriaContaPage"
              Title="Login">
+
+
+    
+    
     <Grid  BackgroundColor="{DynamicResource BackgroundColor}" RowDefinitions="20*,45*,25*">
         <Frame BackgroundColor="White" Grid.Row="1" CornerRadius="10" Margin="20,10,20,10" HasShadow="False">
             <Grid RowDefinitions="5*,7*, 8*,8*,5*, 7*" RowSpacing="5" Padding="0">
@@ -16,11 +20,11 @@
                 <Grid Grid.Row="4" ColumnDefinitions="50*,50*" BackgroundColor="Transparent">
                     <Label Grid.Column="1" Text="Criar Conta" Margin="0,10,0,0" HorizontalTextAlignment="End" TextDecorations="Underline" TextColor="{DynamicResource Primary}">
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="Button_Clicked"/>
+                            <TapGestureRecognizer Command = "{Binding CriarContaCommand}"/>
                         </Label.GestureRecognizers>
                     </Label>
                 </Grid>
-                <Button Grid.Row="5" CornerRadius="10" Text="ENTRAR"/>
+                <Button Grid.Row="5" CornerRadius="10" Text="ENTRAR" Command="{Binding EntrarCommand}"/>
             </Grid>
 
         </Frame>

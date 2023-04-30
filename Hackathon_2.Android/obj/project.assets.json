@@ -30,6 +30,7 @@
           }
         }
       },
+
       "Syncfusion.Xamarin.DataSource/21.1.41": {
         "type": "package",
         "compile": {
@@ -77,6 +78,7 @@
           }
         }
       },
+
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -2003,6 +2005,7 @@
         "syncfusion_logo.png"
       ]
     },
+
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -3631,6 +3634,11 @@
       "projectPath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
       "packagesPath": "C:\\Users\\milton.maia\\.nuget\\packages\\",
       "outputPath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2.Android\\obj\\",
+      "projectUniqueName": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
+      "projectName": "Hackathon_2.Android",
+      "projectPath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
+      "packagesPath": "C:\\Users\\luiz.lima\\.nuget\\packages\\",
+      "outputPath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3669,6 +3677,7 @@
             "target": "Package",
             "version": "[21.1.41, )"
           },
+
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hackathon_2.ViewModels.ViewModelAdicionadas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,14 +13,14 @@ namespace Hackathon_2.Views.PagesAdicionadas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login_CriaContaPage : ContentPage
     {
+        private NewLoginViewModel _newLoginViewModel;
         public Login_CriaContaPage()
         {
             InitializeComponent();
+            _newLoginViewModel= new NewLoginViewModel();
+            BindingContext = _newLoginViewModel;
+            
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage.Navigation.PushAsync(new CriaContaPage());
-        }
     }
 }
