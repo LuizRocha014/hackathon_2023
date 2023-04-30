@@ -11,10 +11,10 @@
         <Frame BackgroundColor="White" Grid.Row="1" CornerRadius="10" Margin="20,10,20,10" HasShadow="False">
             <Grid RowDefinitions="5*,7*, 8*,8*,5*, 7*" RowSpacing="5" Padding="0">
                 <inputLayout:SfTextInputLayout Grid.Row="2" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Usuário">
-                    <Entry/>
+                    <Entry TextChanged="Entry_TextChanged"/>
                 </inputLayout:SfTextInputLayout>
                 <inputLayout:SfTextInputLayout Grid.Row="3" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
-                    <Entry/>
+                    <Entry TextChanged="Entry_TextChanged_1"/>
                 </inputLayout:SfTextInputLayout>
                 <Label Text="LOGIN" Grid.Row="1" VerticalOptions="Start" FontSize="28" Margin="0,0,5,0" HorizontalTextAlignment="Center" TextColor="Black"/>
                 <Grid Grid.Row="4" ColumnDefinitions="50*,50*" BackgroundColor="Transparent">

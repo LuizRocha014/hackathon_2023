@@ -22,5 +22,14 @@ namespace Hackathon_2.Views.PagesAdicionadas
             
         }
 
+        private void Entry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            _newLoginViewModel._login = e.NewTextValue;
+        }
+
+        private void Entry_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+            _newLoginViewModel._senha = e.NewTextValue;
+        }
     }
 }
