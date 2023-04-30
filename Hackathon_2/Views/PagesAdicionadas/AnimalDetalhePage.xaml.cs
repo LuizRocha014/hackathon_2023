@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hackathon_2.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,11 @@ namespace Hackathon_2.Views.PagesAdicionadas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AnimalDetalhePage : ContentPage
     {
-        public AnimalDetalhePage()
+        private Animal Animal;
+        public AnimalDetalhePage(Animal animal)
         {
             InitializeComponent();
+            Animal = animal;
         }
     }
 }

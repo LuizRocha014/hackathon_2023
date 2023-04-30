@@ -1,11 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              x:Class="Hackathon_2.Views.PagesAdicionadas.CachorroPage"
-             Title="Cachorros">
+             Title="Adoção">
     <ContentPage.Content>
-        <StackLayout>
-            <Button Clicked="Button_Clicked"/>
-        </StackLayout>
+        <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*" BackgroundColor="WhiteSmoke">
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*" RowSpacing="0" Margin="0,15,0,0">
+                <Label Text="Bem Vindo" FontSize="Title" HorizontalTextAlignment="Center" TextColor="Gray"/>
+                <Label Grid.Row="1" Text="No Happy Pet você poderá achar o seu pet ideal" HorizontalTextAlignment="Center" TextColor="DarkGray"/>
+            </Grid>
+
+            <Grid Grid.Row="1" RowDefinitions="Auto" ColumnDefinitions="*" Margin="20,20,20,0">
+                <Frame CornerRadius="5" BackgroundColor="White"/>
+                <Entry TextChanged="Entry_TextChanged" TextColor="Gray" Placeholder="Nome do animal" PlaceholderColor="LightGray" FontSize="Small"/>
+            </Grid>
+
+            <Grid Grid.Row="2" RowDefinitions="Auto" ColumnDefinitions="*" Margin="20,15,20,0" BackgroundColor="White">
+                <syncfusion:SfListView x:Name="ListaCachorros" ItemSize="160" BackgroundColor="WhiteSmoke" ItemSpacing="2" ItemTapped="ListaCachorros_ItemTapped" ItemsSourceChangeCachingStrategy="RecycleItems">
+                    <syncfusion:SfListView.LayoutManager>
+                        <syncfusion:GridLayout SpanCount = "2"/>
+                    </syncfusion:SfListView.LayoutManager>
+                    <syncfusion:SfListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid BackgroundColor="White">
+                                <Frame Margin="0" Padding="0" BackgroundColor="WhiteSmoke" CornerRadius="5" BorderColor="WhiteSmoke"/>
+                                <Grid RowDefinitions="80*,20*" BackgroundColor="WhiteSmoke" RowSpacing="0" ColumnSpacing="0" Padding="0" Margin="0">
+                                    <Image Margin="0" BackgroundColor="WhiteSmoke" Source="{Binding Foto}" Aspect="Fill"/>
+                                    <Frame Grid.Row="1" BackgroundColor="White" CornerRadius="0"/>
+                                    <Grid Grid.Row="1" RowDefinitions="*" RowSpacing="0" BackgroundColor="White" ColumnSpacing="0" Padding="0" Margin="0" VerticalOptions="Center">
+                                        <Label Text="{Binding Nome}" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </syncfusion:SfListView.ItemTemplate>
+                </syncfusion:SfListView>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
