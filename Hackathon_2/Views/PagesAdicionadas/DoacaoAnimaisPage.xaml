@@ -28,7 +28,7 @@
                         <componentes:CustonEditor AutoSize="TextChanges"/>
                     </inputLayout:SfTextInputLayout>
 
-                    <Button Text="DOAR" CornerRadius="9" Grid.Row="7" Command="{Binding}"/>
+                    <Button Text="DOAR" CornerRadius="9" Grid.Row="7" Command="{Binding DoarCommand}"/>
                 </Grid>
             </Frame>
             <Image Grid.Row="1" HeightRequest="90" WidthRequest="90" VerticalOptions="Start" Margin="-30" Source="donateAnimal.png"/>
