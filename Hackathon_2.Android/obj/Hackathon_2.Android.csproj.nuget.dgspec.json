@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\Hackathon_2.Android.csproj": {}
+    "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2.Android\\Hackathon_2.Android.csproj": {}
   },
   "projects": {
-    "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\Hackathon_2.Android.csproj": {
+    "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2.Android\\Hackathon_2.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
+        "projectUniqueName": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
         "projectName": "Hackathon_2.Android",
-        "projectPath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
-        "packagesPath": "C:\\Users\\luiz.lima\\.nuget\\packages\\",
-        "outputPath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2.Android\\obj\\",
+        "projectPath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2.Android\\Hackathon_2.Android.csproj",
+        "packagesPath": "C:\\Users\\milton.maia\\.nuget\\packages\\",
+        "outputPath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2\\Hackathon_2.csproj": {
-                "projectPath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2\\Hackathon_2.csproj"
+              "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2\\Hackathon_2.csproj": {
+                "projectPath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2\\Hackathon_2.csproj"
               }
             }
           }
@@ -43,6 +43,10 @@
         "monoandroid13.0": {
           "dependencies": {
             "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[21.1.41, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
               "target": "Package",
               "version": "[21.1.41, )"
             },
@@ -58,14 +62,14 @@
         }
       }
     },
-    "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2\\Hackathon_2.csproj": {
+    "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2\\Hackathon_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2\\Hackathon_2.csproj",
+        "projectUniqueName": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2\\Hackathon_2.csproj",
         "projectName": "Hackathon_2",
-        "projectPath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2\\Hackathon_2.csproj",
-        "packagesPath": "C:\\Users\\luiz.lima\\.nuget\\packages\\",
-        "outputPath": "C:\\Hackathon\\Teste\\Hackathon\\Hackathon_2\\obj\\",
+        "projectPath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2\\Hackathon_2.csproj",
+        "packagesPath": "C:\\Users\\milton.maia\\.nuget\\packages\\",
+        "outputPath": "C:\\Gama\\hackathon\\hackathon_2023\\Hackathon_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -107,6 +111,10 @@
               "autoReferenced": true
             },
             "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[21.1.41, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
               "target": "Package",
               "version": "[21.1.41, )"
             },

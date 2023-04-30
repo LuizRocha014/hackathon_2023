@@ -10,6 +10,8 @@
       "Hackathon_2/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Syncfusion.Xamarin.Core": "21.1.41",
+          "Syncfusion.Xamarin.SfListView": "21.1.41",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -21,6 +23,56 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Syncfusion.Licensing/21.1.41": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "21.1.41.0",
+            "fileVersion": "21.1.41.0"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/21.1.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.41",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "21.1.41.0",
+            "fileVersion": "21.1.41.0"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/21.1.41": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll": {
+            "assemblyVersion": "21.1.41.0",
+            "fileVersion": "21.1.41.0"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/21.1.41": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll": {
+            "assemblyVersion": "21.1.41.0",
+            "fileVersion": "21.1.41.0"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/21.1.41": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "21.1.41",
+          "Syncfusion.Xamarin.DataSource": "21.1.41",
+          "Syncfusion.Xamarin.GridCommon": "21.1.41",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll": {
+            "assemblyVersion": "21.1.41.0",
+            "fileVersion": "21.1.41.0"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -79,6 +131,41 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/21.1.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-biZ5e9sMtHUhb6wKozaZEa5X7yB0J46LjqMp6YVKYKaUWcVe0606xriIbT3GcAtyBIC6CqLywONXhy2IYAbgYA==",
+      "path": "syncfusion.licensing/21.1.41",
+      "hashPath": "syncfusion.licensing.21.1.41.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/21.1.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pv4rOFBgDlyjD6BNy6WmzH0CJLhZJpTJPV/vi/Wzh5nMUAn2sXRMGrz+cXqNynk85O19Yvjer7xNqW5M1DwCdw==",
+      "path": "syncfusion.xamarin.core/21.1.41",
+      "hashPath": "syncfusion.xamarin.core.21.1.41.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.DataSource/21.1.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xrwShJqLA3A15gseqjHdqSX+dp/928P/1yabsbjN9WsFiWFuP1g43lbnZINGUwmHE25i5q58xtsRUkia/9wNrQ==",
+      "path": "syncfusion.xamarin.datasource/21.1.41",
+      "hashPath": "syncfusion.xamarin.datasource.21.1.41.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.GridCommon/21.1.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yaGJRjOsofChp9bKbWskHN/7M+NraLUDIYc4lufaAvw+catzby9pRHtTTF9AiKWSyrV4vt4mvSH8OW0eIus0pg==",
+      "path": "syncfusion.xamarin.gridcommon/21.1.41",
+      "hashPath": "syncfusion.xamarin.gridcommon.21.1.41.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfListView/21.1.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wf/fbK2BrHFffBbvpooP8sdOk1M+LD2usTdmAhD68igzscALeTxVwHz3gjXGnCTB8sxlEDS+E6ByxvH1yTUW3w==",
+      "path": "syncfusion.xamarin.sflistview/21.1.41",
+      "hashPath": "syncfusion.xamarin.sflistview.21.1.41.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",

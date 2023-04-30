@@ -13,5 +13,6 @@ namespace Hackathon_2.Models
         public string Sexo { get; set; }
         public string DtNacimento { get; set; }
         public string Obs { get; set; }
+        public string Foto { get; set; }
     }
 }

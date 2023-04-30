@@ -4,10 +4,8 @@
              x:Class="Hackathon_2.Views.PagesAdicionadas.AnimalDetalhePage"
              Title="Detalhes">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Detalhe"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid BackgroundColor="White">
+            
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

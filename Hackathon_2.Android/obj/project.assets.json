@@ -2,6 +2,81 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v13.0": {
+      "Syncfusion.Licensing/21.1.41": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid90/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid90/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/21.1.41": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.41",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/21.1.41": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10.0/Syncfusion.DataSource.Portable.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Syncfusion.DataSource.Portable.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/21.1.41": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10.0/Syncfusion.GridCommon.Portable.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Syncfusion.GridCommon.Portable.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/21.1.41": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "21.1.41",
+          "Syncfusion.Xamarin.DataSource": "21.1.41",
+          "Syncfusion.Xamarin.GridCommon": "21.1.41",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Syncfusion.SfListView.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.SfListView.XForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Syncfusion.SfListView.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.SfListView.XForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1780,6 +1855,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Syncfusion.Xamarin.Core": "21.1.41",
+          "Syncfusion.Xamarin.SfListView": "21.1.41",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -1793,6 +1870,139 @@
     }
   },
   "libraries": {
+    "Syncfusion.Licensing/21.1.41": {
+      "sha512": "biZ5e9sMtHUhb6wKozaZEa5X7yB0J46LjqMp6YVKYKaUWcVe0606xriIbT3GcAtyBIC6CqLywONXhy2IYAbgYA==",
+      "type": "package",
+      "path": "syncfusion.licensing/21.1.41",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.21.1.41.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/21.1.41": {
+      "sha512": "Pv4rOFBgDlyjD6BNy6WmzH0CJLhZJpTJPV/vi/Wzh5nMUAn2sXRMGrz+cXqNynk85O19Yvjer7xNqW5M1DwCdw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/21.1.41",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ClearButtonViewVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.21.1.41.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.DataSource/21.1.41": {
+      "sha512": "xrwShJqLA3A15gseqjHdqSX+dp/928P/1yabsbjN9WsFiWFuP1g43lbnZINGUwmHE25i5q58xtsRUkia/9wNrQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.datasource/21.1.41",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.DataSource.Portable.XML",
+        "lib/MonoAndroid10.0/Syncfusion.DataSource.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.XML",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.dll",
+        "syncfusion.xamarin.datasource.21.1.41.nupkg.sha512",
+        "syncfusion.xamarin.datasource.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.GridCommon/21.1.41": {
+      "sha512": "yaGJRjOsofChp9bKbWskHN/7M+NraLUDIYc4lufaAvw+catzby9pRHtTTF9AiKWSyrV4vt4mvSH8OW0eIus0pg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.gridcommon/21.1.41",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/MonoAndroid10.0/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
+        "syncfusion.xamarin.gridcommon.21.1.41.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.SfListView/21.1.41": {
+      "sha512": "Wf/fbK2BrHFffBbvpooP8sdOk1M+LD2usTdmAhD68igzscALeTxVwHz3gjXGnCTB8sxlEDS+E6ByxvH1yTUW3w==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sflistview/21.1.41",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.SfListView.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfListView.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfListView.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
+        "syncfusion.xamarin.sflistview.21.1.41.nupkg.sha512",
+        "syncfusion.xamarin.sflistview.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -3403,6 +3613,8 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v13.0": [
       "Hackathon_2 >= 1.0.0",
+      "Syncfusion.Xamarin.Core >= 21.1.41",
+      "Syncfusion.Xamarin.SfListView >= 21.1.41",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -3449,6 +3661,14 @@
     "frameworks": {
       "monoandroid13.0": {
         "dependencies": {
+          "Syncfusion.Xamarin.Core": {
+            "target": "Package",
+            "version": "[21.1.41, )"
+          },
+          "Syncfusion.Xamarin.SfListView": {
+            "target": "Package",
+            "version": "[21.1.41, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

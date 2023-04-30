@@ -13,22 +13,41 @@ namespace Hackathon_2.Views.PagesAdicionadas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CachorroPage : ContentPage
     {
+        private List<Animal> Lista;
+        private List<string> Nomes;
         public CachorroPage()
         {
             InitializeComponent();
-            var list = new List<Animal>();
-            for (int i = 0; i < 10; i++)
+            try
             {
-                var item = new Animal {
-                Nome = "teste"};
-                list.Add(item);
+                Lista = new List<Animal>();
+                Nomes = new List<string>() { "", "Baby", "Blue", "Céu", "Joy", "Petit", "Toy", "Biscuit", "Boo", "Honey", "Mini" };
+                for (int i = 1; i < 11; i++)
+                {
+                    var item = new Animal
+                    {
+                        Nome = Nomes[i],
+                        Foto = "dog" + i,
+                    };
+                    Lista.Add(item);
+                }
+                ListaCachorros.ItemsSource = Lista;
             }
-            ListaCachorros.ItemsSource = list;
+            catch (Exception e)
+            {
+
+            }
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void Entry_TextChanged(object sender, TextChangedEventArgs e)
         {
-            App.Current.MainPage.Navigation.PushAsync(new AnimalDetalhePage()) ;
+            var pesquisa = e.NewTextValue;
+            ListaCachorros.ItemsSource = Lista.Where(i => i.Nome.ToUpper().Contains(pesquisa.ToUpper()));
+        }
+
+        private void ListaCachorros_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
+        {
+            App.Current.MainPage.Navigation.PushAsync(new AnimalDetalhePage((Animal)ListaCachorros.SelectedItem));
         }
     }
 }
