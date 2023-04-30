@@ -1,13 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              x:Class="Hackathon_2.Views.PagesAdicionadas.CriaContaPage"
              Title="Criar Conta">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Criar Conta"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <ScrollView Orientation="Vertical">
+        <Grid BackgroundColor="WhiteSmoke" RowDefinitions="4*,90*">
+            <Frame BackgroundColor="White" Grid.Row="1" Margin="20" CornerRadius="10">
+                <Grid RowDefinitions="8*,5*,5*,5*,5*,5*,5*,5*">
+                    <Label Grid.Row="0" Text="CRIAR CONTA"/>
+                    <inputLayout:SfTextInputLayout Grid.Row="1" BackgroundColor="blue" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Grid.Row="2" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Grid.Row="3" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Grid.Row="4" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Grid.Row="5" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Grid.Row="6" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Grid.Row="7" ContainerType="Outlined" FocusedColor="{DynamicResource Primary}" UnfocusedColor="Gray" Padding="0" Hint="Senha" EnablePasswordVisibilityToggle="True" >
+                        <Entry/>
+                    </inputLayout:SfTextInputLayout>
+                </Grid>
+            </Frame>
+            <Image Grid.Row="1" HeightRequest="90" WidthRequest="90" VerticalOptions="Start" Margin="-30" Source="newUser.png"/>
+        </Grid>
+    </ScrollView>
 </ContentPage>

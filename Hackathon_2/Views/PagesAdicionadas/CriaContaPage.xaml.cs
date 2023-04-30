@@ -16,5 +16,10 @@ namespace Hackathon_2.Views.PagesAdicionadas
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage.Navigation.PushAsync(new CriaContaPage());
+        }
     }
 }
